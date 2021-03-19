@@ -1,4 +1,4 @@
-### Javascript Drum Kit
+## Javascript Drum Kit
 
 A simple drum kit using the middle row letters of the keyboard.
 
