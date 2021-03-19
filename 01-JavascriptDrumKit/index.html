@@ -6,6 +6,17 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <div class="options">
+      <div class="choice">
+        <label for="choose">Percussions</label>
+        <select name="percussions" id="choose">
+          <optgroup label="Packs">
+            <option value="perc">Drum Percution</option>
+            <option value="punches">Punches</option>
+          </optgroup>
+        </select>
+      </div>
+    </div>
     <div class="keys">
       <div data-key="a" class="key">
         <kbd>A</kbd>
@@ -45,15 +56,15 @@
       </div>
     </div>
 
-    <audio data-key="a" src="sounds/clap.wav"></audio>
-    <audio data-key="s" src="sounds/hihat.wav"></audio>
-    <audio data-key="d" src="sounds/kick.wav"></audio>
-    <audio data-key="f" src="sounds/openhat.wav"></audio>
-    <audio data-key="g" src="sounds/boom.wav"></audio>
-    <audio data-key="h" src="sounds/ride.wav"></audio>
-    <audio data-key="j" src="sounds/snare.wav"></audio>
-    <audio data-key="k" src="sounds/tom.wav"></audio>
-    <audio data-key="l" src="sounds/tink.wav"></audio>
+    <audio data-key="a" src="sounds/perc/1.wav"></audio>
+    <audio data-key="s" src="sounds/perc/2.wav"></audio>
+    <audio data-key="d" src="sounds/perc/3.wav"></audio>
+    <audio data-key="f" src="sounds/perc/4.wav"></audio>
+    <audio data-key="g" src="sounds/perc/5.wav"></audio>
+    <audio data-key="h" src="sounds/perc/6.wav"></audio>
+    <audio data-key="j" src="sounds/perc/7.wav"></audio>
+    <audio data-key="k" src="sounds/perc/8.wav"></audio>
+    <audio data-key="l" src="sounds/perc/9.wav"></audio>
 
     <script src="../dist/drums.js"></script>
   </body>

@@ -1,4 +1,11 @@
 {
+  "name": "typescript30",
+  "version": "1.0.0",
+  "author": {
+    "name": "Kendry Grullon",
+    "email": "kengrullon@gmail.com",
+    "url": "https://kengru.do"
+  },
   "dependencies": {
     "global": "^4.4.0",
     "serve": "^11.3.2",
