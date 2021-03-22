@@ -2,6 +2,8 @@
   --base: #3423b8;
   --spacing: 10px;
   --blur: 10px;
+  --contrast: 10%;
+  --gray: 0%;
 }
 
 body {
@@ -24,7 +26,7 @@ input {
 img {
   padding: var(--spacing);
   background: var(--base);
-  filter: blur(var(--blur));
+  filter: blur(var(--blur)) contrast(var(--contrast)) grayscale(var(--gray));
 }
 
 .hl {
